@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<AliasPackage>
+		<Alias isActive="yes" isFolder="no">
+			<name>Start lockpick</name>
+			<script>lockpicktarget = matches[2]
+send("pick "..lockpicktarget.." with pick") </script>
+			<command>get lockpick from moneybag</command>
+			<packageName></packageName>
+			<regex>^lp (.+) ?$</regex>
+		</Alias>
+	</AliasPackage>
+</MudletPackage>
